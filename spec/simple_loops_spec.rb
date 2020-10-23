@@ -23,7 +23,7 @@ end
 
 describe 'output_array' do
 
-  it 'takes in a message and a number outputs the message that number of times' do
+  it 'takes in an array and outputs each method with a loop' do
     array = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
     expect { output_array(array) }.to output(/Be yourself;\neveryone else is already taken\n- Oscar Wilde/).to_stdout, "Expected:\n\nBe yourself;\neveryone else is already taken\n- Oscar Wilde"
     array = [5, 4, 3, 2, 1]
